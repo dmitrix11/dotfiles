@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/Users/dima/dev/Sites/project11/resources/js/Pages'
+let g:netrw_dirhist_3='/Users/dima/dev/Sites/project11/resources/js'
+let g:netrw_dirhist_2='/Users/dima/dev/Sites/project11/resources'
+let g:netrw_dirhist_1='/Users/dima/dev/Sites/project11'
