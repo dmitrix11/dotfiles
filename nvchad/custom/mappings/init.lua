@@ -37,6 +37,8 @@ M.general = {
 		-- Move Lines Up and Down in Normal mode with ALT-J/K
 		["∆"] = { "<Esc>:move .+1<CR>==", opts = { silent = true } },
 		["˚"] = { "<Esc>:move .-2<CR>==", opts = { silent = true } },
+		-- Zen Mode with Twilight
+		["<leader>z"] = { "<cmd> ZenMode <CR>", "Toggle Zen Mode" },
 	},
 
 	i = {
