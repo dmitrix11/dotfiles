@@ -43,7 +43,7 @@ return {
 		end,
 	},
 
-	-- Which-key - tab with links
+	-- WhiGch-key - tab with links
 	["folke/which-key.nvim"] = {
 		disable = false,
 	},
@@ -67,4 +67,7 @@ return {
 	-- Zen Mode with twilight
 	["folke/twilight.nvim"] = {},
 	["folke/zen-mode.nvim"] = {},
+
+	-- TailwindCSS color preview
+	["themaxmarchuk/tailwindcss-colors.nvim"] = {},
 }
