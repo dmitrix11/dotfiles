@@ -68,6 +68,10 @@ return {
 	["folke/twilight.nvim"] = {},
 	["folke/zen-mode.nvim"] = {},
 
-	-- TailwindCSS color preview
-	["themaxmarchuk/tailwindcss-colors.nvim"] = {},
+	-- Enable tailwindCSS colorizer
+	["NvChad/nvim-colorizer.lua"] = {
+		override_options = {
+			user_default_options = { tailwind = "lsp" },
+		},
+	},
 }
