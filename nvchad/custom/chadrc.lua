@@ -1,15 +1,14 @@
 -- First read our docs (completely) then check the example_config repo
 
 local M = {}
-
--- Mappings
-M.mappings = require("custom.mappings")
+-- Plugins
+M.plugins = require("custom.plugins")
 
 -- Options
 M.options = require("custom.options")
 
--- Plugins
-M.plugins = require("custom.plugins")
+-- Mappings
+M.mappings = require("custom.mappings")
 
 M.ui = {
 	-- theme = "ayu-dark",
