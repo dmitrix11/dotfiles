@@ -12,7 +12,7 @@ M.mappings = require("custom.mappings")
 
 M.ui = {
 	-- theme = "ayu-dark",
-	theme = "rosepine",
+	theme = "catppuccin",
 	hl_override = {
 		Comment = { italic = true },
 		Conditional = { italic = true },
