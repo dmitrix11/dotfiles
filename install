@@ -9,10 +9,10 @@ rm -rf $HOME/.vim $HOME/.vimrc
 ln -s $DOTFILES/vim/vim $HOME/.vim
 ln -s $DOTFILES/vim/vimrc $HOME/.vimrc
 
-# rm -rf $HOME/.config/nvim
-# ln -s $DOTFILES/nvim $HOME/.config/nvim
-rm -rf $HOME/.config/nvim/lua/custom
-ln -s $DOTFILES/nvchad/custom $HOME/.config/nvim/lua/custom
+rm -rf $HOME/.config/nvim
+ln -s $DOTFILES/nvim $HOME/.config/nvim
+# rm -rf $HOME/.config/nvim/lua/custom
+# ln -s $DOTFILES/nvchad/custom $HOME/.config/nvim/lua/custom
 
 rm -rf $HOME/.config/lvim
 ln -s $DOTFILES/lvim $HOME/.config/lvim
