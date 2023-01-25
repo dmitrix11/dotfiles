@@ -1,8 +1,17 @@
 -- general
 lvim.log.level = "warn"
-lvim.format_on_save.enabled = true
 lvim.format_on_save = true
 lvim.colorscheme = "ayu"
+
+vim.opt.guifont = "MesloLGLDZ_Nerd_Font:h16"
+vim.opt.numberwidth = 3
+vim.opt.relativenumber = true
+vim.opt.wrap = true -- display lines as one long line
+vim.opt.spell = true
+vim.opt.spelllang = "en"
+vim.opt.scrolloff = 8 -- is one of my fav
+vim.opt.sidescrolloff = 8
+
 -- to disable icons and use a minimalist setup, uncomment the following
 -- lvim.use_icons = false
 lvim.lsp.diagnostics.virtual_text = true
@@ -84,12 +93,17 @@ lvim.lsp.installer.setup.ensure_installed = {
 
 -- Additional Plugins
 lvim.plugins = {
+  { "Shatur/neovim-ayu" },
   {
     "folke/trouble.nvim",
     cmd = "TroubleToggle",
   },
-  { "Shatur/neovim-ayu" },
+  {
+    "p00f/nvim-ts-rainbow",
+  },
 }
+
+lvim.builtin.treesitter.rainbow.enable = true
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 -- vim.api.nvim_create_autocmd("BufEnter", {

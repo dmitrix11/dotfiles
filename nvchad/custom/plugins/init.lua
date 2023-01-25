@@ -44,9 +44,9 @@ return {
   },
 
   -- WhiGch-key - tab with links
-  ["folke/which-key.nvim"] = {
-    disable = false,
-  },
+  -- ["folke/which-key.nvim"] = {
+    -- disable = false,
+  -- },
 
   -- Trouble plugin
   ["folke/trouble.nvim"] = {
@@ -72,6 +72,11 @@ return {
   ["NvChad/nvim-colorizer.lua"] = {
     override_options = {
       user_default_options = { tailwind = "lsp" },
+    },
+  },
+  ["folke/which-key.nvim"] = {
+    override_options = {
+      disable = false,
     },
   },
 }

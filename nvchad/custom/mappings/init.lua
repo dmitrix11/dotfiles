@@ -5,7 +5,7 @@ M.nvimtree = {
 
 	n = {
 		-- toggle nvim-tree
-		["<leader>e"] = { "<cmd> NvimTreeToggle <CR>", "toggle nvimtree" },
+		-- ["<leader>e"] = { "<cmd>NvimTreeToggle<CR>", "toggle nvimtree" },
 	},
 }
 
