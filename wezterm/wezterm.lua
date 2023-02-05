@@ -1,0 +1,48 @@
+local wezterm = require("wezterm")
+
+return {
+	default_prog = { "/usr/local/bin/fish" },
+	check_for_updates = true,
+	default_cursor_style = "SteadyBar",
+	cursor_thickness = 2,
+	initial_cols = 130,
+	initial_rows = 25,
+	-- font = wezterm.font("MesloLGLDZ Nerd Font"),
+	font = wezterm.font("JetBrainsMono Nerd Font", { weight = "Regular" }),
+	font_size = 15,
+	freetype_load_target = "Light",
+	freetype_render_target = "HorizontalLcd",
+	line_height = 1.3,
+	bold_brightens_ansi_colors = true,
+	-- dpi = 144.0,
+	-- color_scheme = "Aci (Gogh)",
+	-- color_scheme = "TokyoNightStorm (Gogh)",
+	-- color_scheme = "tokyonight",
+	color_scheme = "ayu",
+	hide_tab_bar_if_only_one_tab = true,
+	colors = {
+		background = "#0f1119",
+	},
+	window_decorations = "RESIZE",
+	window_frame = {
+		font_size = 14,
+		window_padding = {
+			left = 0,
+			right = 0,
+			bottom = 0,
+			top = 0,
+		},
+		inactive_titlebar_bg = "#353535",
+		active_titlebar_bg = "#2b2042",
+		inactive_titlebar_fg = "#cccccc",
+		active_titlebar_fg = "#ffffff",
+		inactive_titlebar_border_bottom = "#2b2042",
+		active_titlebar_border_bottom = "#2b2042",
+		button_fg = "#cccccc",
+		button_bg = "#2b2042",
+		button_hover_fg = "#ffffff",
+		button_hover_bg = "#3b3052",
+
+		-- active_titlebar_bg = "rgb(25, 26, 42)",
+	},
+}

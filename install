@@ -16,3 +16,6 @@ ln -s $DOTFILES/nvim $HOME/.config/nvim
 
 rm -rf $HOME/.config/lvim
 ln -s $DOTFILES/lvim $HOME/.config/lvim
+
+rm -rf $HOME/.config/wezterm
+ln -s $DOTFILES/wezterm $HOME/.config/wezterm
