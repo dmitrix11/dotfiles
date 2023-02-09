@@ -22,6 +22,7 @@ return {
 	hide_tab_bar_if_only_one_tab = true,
 	colors = {
 		background = "#0f1119",
+		-- background = "#151f32",
 	},
 	window_decorations = "RESIZE",
 	window_frame = {
