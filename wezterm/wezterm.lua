@@ -9,6 +9,7 @@ return {
 	initial_rows = 25,
 	-- font = wezterm.font("MesloLGLDZ Nerd Font"),
 	font = wezterm.font("JetBrainsMono Nerd Font", { weight = "Regular" }),
+	-- font = wezterm.font("Iosevka Nerd Font Mono"),
 	font_size = 15,
 	freetype_load_target = "Light",
 	freetype_render_target = "HorizontalLcd",
@@ -25,14 +26,14 @@ return {
 		-- background = "#151f32",
 	},
 	window_decorations = "RESIZE",
+	window_padding = {
+		left = 22,
+		right = 22,
+		bottom = 22,
+		top = 36,
+	},
 	window_frame = {
 		font_size = 14,
-		window_padding = {
-			left = 0,
-			right = 0,
-			bottom = 0,
-			top = 0,
-		},
 		inactive_titlebar_bg = "#353535",
 		active_titlebar_bg = "#2b2042",
 		inactive_titlebar_fg = "#cccccc",
