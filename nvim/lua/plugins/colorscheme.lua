@@ -23,12 +23,16 @@ return {
         color_overrides = {
           mocha = {
             base = "#0f1119",
-            mantle = "#0f1119",
-            crust = "#0f1119",
+            -- mantle = "#0f1119",
+            -- crust = "#0f1119",
           },
         },
+        transparent_background = true,
       })
     end,
+    require("notify").setup({
+      background_colour = "#000000",
+    }),
   },
   -- {
   --   "projekt0n/github-nvim-theme",
