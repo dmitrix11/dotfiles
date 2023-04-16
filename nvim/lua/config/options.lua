@@ -55,11 +55,14 @@ vim.opt.backupdir:remove(".") -- keep backups out of current folder
 -- Gui options / settings
 -- vim.opt.guifont = "MesloLGLDZ_Nerd_Font:h16"
 -- vim.opt.guifont = "Iosevka Nerd Font Mono:h18,Noto Color Emoji:h18"
-vim.opt.guifont = "Anonymous Pro:h18,Noto Color Emoji:h18"
+vim.opt.guifont = "Anonymous Pro:h19,Noto Color Emoji:h18"
 
 -- Neovide settings start
 if vim.g.neovide then
-  vim.g.neovide_refresh_rate = 30
+  vim.g.neovide_cursor_animation_length = 0
+  vim.g.neovide_floating_blur = 0
+  vim.g.neovide_floating_opacity = 90
+  -- vim.g.neovide_refresh_rate = 30
   vim.g.neovide_refresh_rate_idle = 1
 
   -- vim.g.neovide_cursor_animation_length = 0
